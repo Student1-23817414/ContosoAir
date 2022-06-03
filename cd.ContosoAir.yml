@@ -26,4 +26,4 @@ steps:
     azureSubscription: 'Azure Connection'
     appType: 'webApp'
     WebAppName: '$(web_prefix)-$(web_site)-$(web_env'
-    packageForLinux: '$(System.DefaultWorkingDirectory)/drop/*.zip'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/drop.zip'
